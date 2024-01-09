@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+
+
+  <body class="bg-custom">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fs-4" href="#home">
+                <img src="images/logotrads.png" alt="Logo" class="logo-img">
+            </a>
+            <!-- Toggle button -->
+          <button class="navbar-toggler shadow-none border-0" 
+                  type="button" 
+                  data-bs-toggle="offcanvas" 
+                  data-bs-target="#offcanvasNavbar" 
+                  aria-controls="offcanvasNavbar" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Sidebar -->
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!-- Sidebar header-->
+            <div class="offcanvas-header">
+                <img src="images/logotrads.png" alt="Logo" class="logo-img-offcanvas">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Sidebar header-->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item mx-4">
+                  <a class="nav-link active" aria-current="page" href="#home">QUEM SOMOS</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#feedbacks">FEEDBACKS</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#produtos">PRODUTOS</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link" href="#rede">REDE CREDENCIADA</a>
+                  </li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Divider -->
+      <div class="d-flex justify-content-center">
+        <img src="images/divider.png" alt="Imagem" class="img-fluid">
+    </div>
+
+    <!-- Hero Section -->
+    <section class="text-light p-5 text-center text-sm-start" id="home">
+        <div class="container py-5">
+            <div class="d-sm-flex align-item-center justify-content-between py-5 ">
+                <div>
+                    <h1 class="text-custom">Somos a maior corretora de <br>plano de saúde da Paraíba.</h1>
+                    <p class=" lead p-custom my-4">Líder em vendas de plano de saúde e benefícios para sua empresa.</p>
+                    <div class="row align-items-end mt-5 ">
+                          <div class="col-md  mt-5">
+                            <h1 class="text-costum-col text-md-smallest">+6</h1>
+                            <p class="p-costum-col">ANOS NO MERCADO</p>
+                          </div>
+
+                          <div class="col-md mx-3 mt-5 ">
+                            <h1 class="text-costum-col">+300</h1>
+                            <p class="p-costum-col">PARCERIAS</p>
+                          </div>
+                        </div>
+
+                        <div class="row align-items-end mt-3 mb-5">
+                            <div class="col-md mt-5">
+                              <h1 class="text-costum-col">+1.000</h1>
+                              <p class="p-costum-col">TRANSAÇÕES</p>
+                            </div>
+  
+                            <div class="col-md mx-2 mt-5">
+                              <h1 class="text-costum-col">+5000</h1>
+                              <p class="p-costum-col">CLIENTES SATISFEITOS</p>
+                            </div>
+                          </div>
+                      
+                </div>
+
+                <!-- forms -->
+                <div class="custom-forms p-5 ">
+                    <h3 class="text-custom-forms text-center mb-4">Preencha o formulário para fazer o <br>download da nossa <b>Rede Credenciada</b>.</h3>
+                    <!-- forms -->
+                    <h6 class="text-left">PLANO</h6>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                    <h6 class="text-left mt-4">ESTADO</h6>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                    <h6 class="text-left mt-4">CIDADE</h6>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                    <h6 class="text-left mt-4">ESPECIALIDADE</h6>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                    <div class="d-grid gap-2 mt-4">
+                        <button class="btn btn-primary" type="button">Download</button>
+                      </div>
+
+    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+   
+   
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

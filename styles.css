@@ -1,0 +1,70 @@
+.bg-custom {
+    background-color: #202B4E;
+}
+
+@media (max-width: 991px) {
+    .sidebar{
+        background-color: #202B4E;
+    }
+}
+
+/* hero section */
+
+.text-custom{
+    color: #00BDE7;
+    font-family: Libre Baskerville;
+    font-weight: 500;
+}
+
+.text-costum-col{
+    color: #FFF;
+    font-family: Libre Baskerville;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.9%; /* 65.94px */
+}
+
+.p-costum-col {
+    color: #00BDE7;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 109.9%; /* Isso equivale a cerca de 17.584px, aproximadamente */
+    text-transform: uppercase;
+}
+
+
+.custom-forms{
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(10px);
+}
+
+.form-select {
+    border-radius: 4px;
+    background-color: rgba(241, 242, 243, 0.2);
+    border: none;
+    padding: 8px; /* Ajuste conforme necessário */
+    /* Adiciona a seta personalizada como background */
+    background-image: url(images/Frame.svg);
+    background-position: calc(100% - 12px) calc(50% + 2px), 
+                         calc(100% - 7px) calc(50% + 2px); /* Posiciona a seta */
+    background-size: 16px 16px; /* Tamanho da seta */
+    background-repeat: no-repeat;
+}
+
+
+
+.text-custom-forms{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-primary{
+    font-weight: 700;
+    color: black;
+    background-color: #00BDE7;
+    border: none;
+}
