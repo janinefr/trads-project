@@ -62,12 +62,6 @@
     font-weight: 400;
 }
 
-.btn-primary{
-    font-weight: 700;
-    color: black;
-    background-color: #00BDE7;
-    border: none;
-}
 
 /* quem somos section */
 
@@ -99,4 +93,48 @@
 .bg-light {
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
+}
+
+.text-custom-produtos{
+    color: #212C4F;
+    font-family: Libre Baskerville;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.p-custom-produtos{
+    color: #212C4F;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.389px;
+}
+
+.btn-primary{
+    background-color: transparent;
+    width: 50%;
+    border-radius: 4px;
+    border: 2px solid #202B4E;
+    color: #202B4E;
+}
+
+.btn-primary:hover{
+    background-color: #202B4E;
+    border: 2px solid white;
+}
+
+/* rede */
+
+.text-custom-rede{
+    color: #FFF;
+    font-family: Libre Baskerville;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.9%; /* 65.94px */
 }
