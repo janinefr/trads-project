@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Libre Baskerville', serif, 'Public Sans', sans-serif;
+}
+
+
 .bg-custom {
     background-color: #202B4E;
 }
@@ -12,14 +20,14 @@
 
 .text-custom{
     color: #00BDE7;
-    font-family: Libre Baskerville;
+    font-family: 'Libre Baskerville';
     font-weight: 500;
 }
 
 .text-costum-col{
     color: #FFF;
-    font-family: Libre Baskerville;
-    font-size: 50px;
+    font-family: 'Libre Baskerville';
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 109.9%; /* 65.94px */
@@ -28,7 +36,7 @@
 .p-costum-col {
     color: #00BDE7;
     font-family: 'Public Sans', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 109.9%; /* Isso equivale a cerca de 17.584px, aproximadamente */
@@ -68,7 +76,7 @@
 .text-custom-quem-somos{
     color: #FFF;
     font-family: Libre Baskerville;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 109.9%; /* 65.94px */
@@ -77,7 +85,7 @@
 .p-custom-quem-somos{
     color: #FFF;
     font-family: Public Sans;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px; /* 150% */
@@ -98,7 +106,7 @@
 .text-custom-produtos{
     color: #212C4F;
     font-family: Libre Baskerville;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -133,8 +141,90 @@
 .text-custom-rede{
     color: #FFF;
     font-family: Libre Baskerville;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 109.9%; /* 65.94px */
+}
+
+/* feedbacks */
+
+.custom-bg-feedback{
+    border-radius: 70px;
+    background: #F5F5F5;
+}
+
+.card{
+    border: none;
+    background: #F5F5F5;
+}
+
+.card-title{
+    color: #202B4E;
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.9%; /* 21.98px */
+}
+
+.bi-star-fill{
+    color:#FCD635;
+}
+
+/* footer */
+
+.text-custom-footer{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.custom-link {
+    color: #FFF;
+    text-decoration: none;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.23px; 
+}
+
+/* second footer */
+
+.title-custom-plan-footer{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.23px;
+}
+
+.text-custom-plan-footer{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.23px;
+
+    border-radius: 2px;
+    border: 1px solid #FFF;
+    background: #000;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+
+    @media (max-width: 992px) {
+        width: 40%;
+
+    }
 }
