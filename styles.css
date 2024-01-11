@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Libre Baskerville', serif, 'Public Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 
